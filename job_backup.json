@@ -4,9 +4,9 @@
       "freezer_action": {
         "action": "backup",
         "mode": "fs",
-        "backup_name": "debian9_backup",
+        "backup_name": "ubuntu18_backup",
         "path_to_backup": "/root/freezer_test",
-        "container": "debian9_container",
+        "container": "ubuntu18_container",
         "log_file": "/root/freezer_test/freezer_backup.log"
 
       },
@@ -16,8 +16,8 @@
   ],
   "job_schedule": {
     "schedule_interval": "1 hours",
-    "schedule_start_date": "2019-02-28T15:53:00"
+    "schedule_start_date": "2019-02-28T16:03:00"
   },
-  "description": "this is a backup JOB"
+  "description": "this is a backup JOB ubuntu1d8"
 }
 

@@ -3,10 +3,11 @@
     {
       "freezer_action": {
         "action": "restore",
-        "mode": "fs",
-        "backup_name": "debian9_backup",
         "restore-abs-path": "/root/freezer_restore",
-        "container": "debian9_container",
+        "container": "ubuntu18_container",
+        "backup_name": "ubuntu18_backup",
+        "restore-from-host": "freezer-test",
+        "max_cpu_priority": true,
         "log_file": "/root/freezer_test/freezer_restore.log"
       },
       "max_retries": 3,
@@ -15,8 +16,8 @@
   ],
   "job_schedule": {
     "schedule_interval": "1 hours",
-    "schedule_start_date": "2019-02-28T16:20:00"
+    "schedule_start_date": "2019-03-01T20:11:00"
   },
-  "description": "This is a restore JOB"
+  "description": "This is a restore JOB01 ubuntu18"
 }
 

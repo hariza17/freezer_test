@@ -3,7 +3,7 @@
     "action": "backup",
     "mode": "fs",
     "src_file": "/root/freezer_test",
-    "backup_name": "debian9_backup",
-    "container": "debian9_container"
+    "backup_name": "ubuntu18_backup",
+    "container": "ubuntu18_container"
   }
 }

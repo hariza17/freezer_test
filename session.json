@@ -1,8 +1,8 @@
 {
   "session_tag": 1,
-  "description": "my first session",
+  "description": "ubuntu18_session",
   "schedule": {
     "schedule_interval": "1 hours",
-    "schedule_start_date": "2019-02-21T20:03:00"
+    "schedule_start_date": "2019-02-21T20:35:00"
   }
 }
