@@ -1,0 +1,23 @@
+{
+  "job_actions": [
+    {
+      "freezer_action": {
+        "action": "backup",
+        "mode": "fs",
+        "backup_name": "debian9_backup",
+        "path_to_backup": "/root/freezer_test",
+        "container": "debian9_container",
+        "log_file": "/root/freezer_test/freezer_backup.log"
+
+      },
+      "max_retries": 3,
+      "max_retries_interval": 60
+    }
+  ],
+  "job_schedule": {
+    "schedule_interval": "1 hours",
+    "schedule_start_date": "2019-02-28T15:53:00"
+  },
+  "description": "this is a backup JOB"
+}
+

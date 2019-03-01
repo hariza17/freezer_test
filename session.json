@@ -1,0 +1,8 @@
+{
+  "session_tag": 1,
+  "description": "my first session",
+  "schedule": {
+    "schedule_interval": "1 hours",
+    "schedule_start_date": "2019-02-21T20:03:00"
+  }
+}

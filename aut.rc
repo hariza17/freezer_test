@@ -1,0 +1,7 @@
+export OS_BACKUP_URL=https://api.uk.ormuco.com:9090
+export OS_USERNAME=bruca.lock+2@ormuco.com
+export OS_PASSWORD=ormuco123456789
+export OS_TENANT_ID=c890e8e41586429f98a9a858e3f6204f
+export OS_AUTH_URL=https://api.uk.ormuco.com:5000/v3
+export OS_AUTH_TYPE=password
+export OS_IDENTITY_API_VERSION=3

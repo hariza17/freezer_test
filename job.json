@@ -1,0 +1,20 @@
+{
+  "job_actions": [
+    {
+      "freezer_action": {
+        "action": "backup",
+        "mode": "fs",
+        "backup_name": "backup001",
+        "path_to_backup": "/home/ubuntu/original_files",
+        "container": "schedule_backup_debian9"
+      },
+      "max_retries": 3,
+      "max_retries_interval": 60
+    }
+  ],
+  "job_schedule": {
+    "schedule_interval": "1 hours",
+    "schedule_start_date": "2019-02-21T14:00:00"
+  },
+  "description": "schedule_backup_debian9"
+}
