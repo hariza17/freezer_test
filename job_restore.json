@@ -3,11 +3,10 @@
     {
       "freezer_action": {
         "action": "restore",
-        "restore-abs-path": "/root/freezer_restore",
+	"restore_abs_path": "/root/freezer_restore",
         "container": "ubuntu18_container",
         "backup_name": "ubuntu18_backup",
-        "restore-from-host": "freezer-test",
-        "max_cpu_priority": true,
+	"hostname":"freezer-test",
         "log_file": "/root/freezer_test/freezer_restore.log"
       },
       "max_retries": 3,
@@ -16,8 +15,8 @@
   ],
   "job_schedule": {
     "schedule_interval": "1 hours",
-    "schedule_start_date": "2019-03-01T20:11:00"
+    "schedule_start_date": "2019-03-11T18:51:00"
   },
-  "description": "This is a restore JOB01 ubuntu18"
+  "description": "This is a restore JOB01 ubuntu18004"
 }
 
